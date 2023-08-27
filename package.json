@@ -1,0 +1,23 @@
+{
+  "name": "practice-distributed-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "consumer": "node src/kafka/consumer.js",
+    "producer": "node src/kafka/producer.js",
+    "test": "mocha test/**/*.spec.js --exit --timeout 10000",
+    "preinstall": "npx only-allow pnpm"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.5.3",
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
