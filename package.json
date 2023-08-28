@@ -19,5 +19,8 @@
   },
   "dependencies": {
     "kafkajs": "^2.2.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
   }
 }
