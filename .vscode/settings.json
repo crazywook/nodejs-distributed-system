@@ -1,11 +1,13 @@
 {
   "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
   "editor.inlayHints.enabled": "off",
-  "mochaExplorer.files": "test/**/*.js",
+  "mochaExplorer.files": "test/**/*.spec.{js,ts}",
   "mochaExplorer.require": "",
   "editor.formatOnSave": true,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "editor.formatOnSave": true
-},
+  },
+  "prettier.printWidth": 140,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
